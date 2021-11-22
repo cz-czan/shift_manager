@@ -60,4 +60,7 @@ to create and save to the database all the shifts for this week.
 
 Send a `PUT` request to the shift endpoint to assign an employee to a shift, referencing the employee by their `id` field.
 
-
+Run tests with:
+```shell
+python manage.py test
+```
