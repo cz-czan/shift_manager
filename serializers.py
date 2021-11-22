@@ -5,7 +5,7 @@ from shift_manager.models import *
 class EmployeeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Employee
-        fields = ['url', 'name']
+        fields = ['id', 'url', 'name']
 
 
 class ShiftSerializer(serializers.ModelSerializer):

@@ -3,7 +3,7 @@ from rest_framework import permissions
 from shift_manager.models import Shift
 from rest_framework.response import Response
 from shift_manager.serializers import *
-
+from django.http import HttpRequest
 
 class EmployeeViewSet(viewsets.ModelViewSet):
     queryset = Employee.objects.all().order_by('id')
